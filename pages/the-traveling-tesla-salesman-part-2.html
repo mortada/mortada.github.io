@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <meta name="author" content="Mortada Mehyar">
+  <title>The Traveling Tesla Salesman (Part 2) &mdash; Random Points</title>
+  
+
+  <link rel="stylesheet" href="/css/full_page_width.css" type="text/css" />
+</head>
+<body>
+  <div id="container"></div>
+<div id="panel">
+<input type="checkbox" id="show-superchargers" checked onclick="toggleMarkers();"> Show Super Chargers
+<input type="checkbox" id="show-crow-path" onclick="toggleCrowPath();"> Show Optimal Path (as the crow flies)
+</br>
+<input type="checkbox" id="show-dist-path" onclick="toggleDistPath();"> Show Optimal Path for Driving Distance
+<input type="checkbox" id="show-time-path" onclick="toggleTimePath();"> Show Optimal Path for Driving Time
+</div>
+</body>
+  <script src="https://maps.google.com/maps/api/js?libraries=geometry&sensor=false&v=3.exp"></script>
+  <script src="/js/traveling_tesla_salesman_part2.js"></script>
+</html>

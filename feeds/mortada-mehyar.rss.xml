@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>Random Points - Mortada Mehyar</title><link>/</link><description></description><lastBuildDate>Sat, 30 Sep 2017 22:33:00 -0700</lastBuildDate><item><title>3 Easy Steps to Set Up Pyspark</title><link>/3-easy-steps-to-set-up-pyspark.html</link><description>&lt;p&gt;Starting with Spark 2.2, it is now super easy to set up pyspark.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Download Spark&lt;/p&gt;
+&lt;p&gt;Download the spark tarball from the &lt;a href="http://spark.apache.org/downloads.html"&gt;Spark website&lt;/a&gt; and untar it:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ tar zxvf spark-2.2.0-bin-hadoop2.7.tgz&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Install pyspark&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;conda&lt;/code&gt;, simply do:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;$ conda install pyspark&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;or if you prefer &lt;code&gt;pip …&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Sat, 30 Sep 2017 22:33:00 -0700</pubDate><guid isPermaLink="false">tag:None,2017-09-30:/3-easy-steps-to-set-up-pyspark.html</guid><category>software</category><category>conda</category><category>pip</category><category>pyspark</category><category>spark</category></item><item><title>Tips for Running TensorFlow with GPU Support on AWS</title><link>/tips-for-running-tensorflow-with-gpu-support-on-aws.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;In this blog post I will discuss how to get &lt;a href="https://www.tensorflow.org/"&gt;TensorFlow&lt;/a&gt; working on the &lt;a href="https://aws.amazon.com/blogs/aws/new-p2-instance-type-for-amazon-ec2-up-to-16-gpus/"&gt;AWS p2 instances&lt;/a&gt;, along with some tips about configurations and optimizations. I will assume you are familiar with the basics of AWS, and focus on how to set up TensorFlow with GPU support on AWS.&lt;/p&gt;
+&lt;h2 id="Launch-GPU-instance-on-AWS"&gt;Launch …&lt;/h2&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Mon, 26 Jun 2017 22:31:00 -0700</pubDate><guid isPermaLink="false">tag:None,2017-06-26:/tips-for-running-tensorflow-with-gpu-support-on-aws.html</guid><category>software</category><category>tensorflow</category><category>AWS</category><category>python</category><category>GPU</category><category>CUDA</category><category>cuDNN</category></item><item><title>Easily Profile Python Code in Jupyter</title><link>/easily-profile-python-code-in-jupyter.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;a href="https://github.com/rkern/line_profiler"&gt;line_profiler&lt;/a&gt; is an excellent tool that can help you quickly profile your python code and find where the performance bottlenecks are. In this blog post I will walk through a simple example and a few tips about using this tool within the &lt;a href="http://jupyter.org/"&gt;Jupyter&lt;/a&gt; notebook.&lt;/p&gt;
+&lt;h2 id="Installation"&gt;Installation&lt;a class="anchor-link" href="#Installation"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;To install &lt;code&gt;line_profiler …&lt;/code&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Sat, 11 Jun 2016 18:31:00 -0700</pubDate><guid isPermaLink="false">tag:None,2016-06-11:/easily-profile-python-code-in-jupyter.html</guid><category>software</category><category>python</category><category>numpy</category><category>pandas</category><category>jupyter notebook</category><category>vectorization</category><category>optimization</category><category>line profiler</category></item><item><title>Now Working At Tesla</title><link>/now-working-at-tesla.html</link><description>&lt;p&gt;It's been an incredible year with lots of changes. Partly because of my &lt;a href="/the-traveling-tesla-salesman.html"&gt;previous blog posts&lt;/a&gt;, I'm now working as a software engineer at Tesla. I started at the end of August and it's been an amazingly rewarding experience so far.&lt;/p&gt;
+&lt;p&gt;I had been a fan of the company for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Tue, 29 Dec 2015 15:40:00 -0800</pubDate><guid isPermaLink="false">tag:None,2015-12-29:/now-working-at-tesla.html</guid><category>misc</category><category>tesla</category></item><item><title>The Traveling Tesla Salesman (Part 2)</title><link>/the-traveling-tesla-salesman-part-2.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;In &lt;a href="http://mortada.net/the-traveling-tesla-salesman.html"&gt;part one&lt;/a&gt; of this blog post I look at a simplified distance metric: straight line (i.e. big circle) distance between two points on earth. A popular question has been: how about using the actual driving distances? Let's have some fun with this here in part two.&lt;/p&gt;
+&lt;p&gt;I will actually look at two additional metrics here - driving distances and driving times. Both are availabe via the &lt;a href="https://developers.google.com/maps/documentation/directions/"&gt;Google Directions API&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Tue, 23 Jun 2015 13:25:00 -0700</pubDate><guid isPermaLink="false">tag:None,2015-06-23:/the-traveling-tesla-salesman-part-2.html</guid><category>math</category><category>traveling salesman problem</category><category>algorithms</category><category>superchargers</category><category>Tesla</category><category>TSP</category><category>optimization</category><category>concorde</category></item><item><title>The Traveling Tesla Salesman</title><link>/the-traveling-tesla-salesman.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Traveling-Salesman-Problem"&gt;Traveling Salesman Problem&lt;a class="anchor-link" href="#Traveling-Salesman-Problem"&gt;¶&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;a href="http://en.wikipedia.org/wiki/Travelling_salesman_problem"&gt;Traveling Salesman Problem&lt;/a&gt; (TSP) is quite an interesting math problem. It simply asks: Given a list of cities and the distances between them, what is the shortest possible path that visits each city exactly once and returns to the origin city?&lt;/p&gt;
+&lt;p&gt;It is a very simple problem to describe and yet very difficult to solve. TSP is known to be &lt;a href="http://en.wikipedia.org/wiki/NP-hard"&gt;NP-hard&lt;/a&gt; and a brute-force solution can be incredibly expensive computationally. Even with just $200$ cities, with the brute-force method you have this many possible permutations to check:&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+&lt;div class="input_area"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="highlight ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;math&lt;/span&gt;
+&lt;span class="n"&gt;math&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;factorial&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+&lt;div class="output_area"&gt;
+&lt;div class="prompt output_prompt"&gt;Out[1]:&lt;/div&gt;
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;788657867364790503552363213932185062295135977687173263294742533244359449963403342920304284011984623904177212138919638830257642790242637105061926624952829931113462857270763317237396988943922445621451664240254033291864131227428294853277524242407573903240321257405579568660226031904170324062351700858796178922222789623703897374720000000000000000000000000000000000000000000000000&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Wed, 10 Jun 2015 15:17:00 -0700</pubDate><guid isPermaLink="false">tag:None,2015-06-10:/the-traveling-tesla-salesman.html</guid><category>math</category><category>traveling salesman problem</category><category>algorithms</category><category>complexity</category><category>superchargers</category><category>Tesla</category><category>TSP</category><category>optimization</category><category>concorde</category></item><item><title>Computing Sample Variance: Why Divide by N - 1?</title><link>/computing-sample-variance-why-divide-by-n-1.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Variance-Estimation"&gt;Variance Estimation&lt;a class="anchor-link" href="#Variance-Estimation"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;In statistics we know that the mean and variance of a population $Y$ are defined to be:&lt;/p&gt;
+\begin{equation}
+\left\{
+\begin{aligned}
+    \text{Mean}(Y) &amp;amp;= \mu = \frac{1}{N} \sum_{i=1}^{N} Y_i \\
+    \text{Var}(Y) &amp;amp;= \sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (Y_i - \mu)^2 \\
+\end{aligned}
+\right.
+\end{equation}&lt;p&gt;where $N$ is the size of the population.
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Sun, 31 May 2015 18:31:00 -0700</pubDate><guid isPermaLink="false">tag:None,2015-05-31:/computing-sample-variance-why-divide-by-n-1.html</guid><category>math</category><category>statistics</category><category>probability</category><category>unbiased variance estimator</category><category>standard deviation</category><category>population mean</category><category>population variance</category><category>sample mean</category><category>sample variance</category><category>biased estimator</category><category>python</category><category>numpy</category><category>pandas.</category></item><item><title>Can Integer Operations Overflow in Python?</title><link>/can-integer-operations-overflow-in-python.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Integer-representations"&gt;Integer representations&lt;a class="anchor-link" href="#Integer-representations"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;Integers are typically represented in memory as a base-2 bit pattern, and in python the built-in function &lt;code&gt;bin&lt;/code&gt; can be used to inspect that:&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing code_cell rendered"&gt;
+&lt;div class="input"&gt;
+&lt;div class="prompt input_prompt"&gt;In&amp;nbsp;[1]:&lt;/div&gt;
+&lt;div class="inner_cell"&gt;
+    &lt;div class="input_area"&gt;
+&lt;div class="highlight-ipynb"&gt;&lt;pre class="highlight ipynb"&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="nb"&gt;bin&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;19&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="output_wrapper"&gt;
+&lt;div class="output"&gt;
+
+
+&lt;div class="output_area"&gt;
+
+    &lt;div class="prompt output_prompt"&gt;Out[1]:&lt;/div&gt;
+
+
+
+
+&lt;div class="output_text output_subarea output_execute_result"&gt;
+&lt;pre&gt;&amp;#39;0b10011&amp;#39;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;If the number of bits used is fixed, the range of integers that can be represented would …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Fri, 22 May 2015 05:31:00 -0700</pubDate><guid isPermaLink="false">tag:None,2015-05-22:/can-integer-operations-overflow-in-python.html</guid><category>software</category><category>pydata</category><category>numpy</category><category>pandas</category><category>numerical precision</category><category>arbitrary precision integers</category><category>integer overflow</category><category>python</category></item><item><title>Simple Proof for Kraft's Inequality</title><link>/simple-proof-for-krafts-inequality.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;In graduate school I came up with an original proof for &lt;a href="http://en.wikipedia.org/wiki/Kraft%27s_inequality"&gt;Kraft's inequality&lt;/a&gt;. The proofs I could find in textbooks tend to be more complicated and less intutive to me, and so I'd like to share my proof here.&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Prefix-Codes"&gt;Prefix Codes&lt;a class="anchor-link" href="#Prefix-Codes"&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;First it is important to understand the concept of …&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Wed, 04 Mar 2015 23:05:00 -0800</pubDate><guid isPermaLink="false">tag:None,2015-03-04:/simple-proof-for-krafts-inequality.html</guid><category>math</category><category>information theory</category><category>coding theory</category><category>prefix code</category><category>Kraft's inequality</category><category>Kraft-McMillan inequality</category><category>Shannon entropy</category><category>uniquely decodable</category></item><item><title>Fibonacci Numbers in Python</title><link>/fibonacci-numbers-in-python.html</link><description>&lt;p&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;h2 id="Fibonacci-numbers"&gt;Fibonacci numbers&lt;a class="anchor-link" href="#Fibonacci-numbers"&gt;¶&lt;/a&gt;&lt;/h2&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="cell border-box-sizing text_cell rendered"&gt;&lt;div class="prompt input_prompt"&gt;
+&lt;/div&gt;&lt;div class="inner_cell"&gt;
+&lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
+&lt;p&gt;The Fibonacci numbers are defined recursively by the following difference equation:&lt;/p&gt;
+\begin{equation}
+\left\{
+\begin{aligned}
+    F_{n} &amp;amp; = F_{n-1} + F_{n-2} \\
+    F_1 &amp;amp; = 1 \\
+    F_0 &amp;amp; = 0 \\
+\end{aligned}
+\right.
+\end{equation}&lt;p&gt;It is easy to compute the first few elements in the sequence:&lt;/p&gt;
+&lt;p&gt;$0, 1, 1, 2, 3, 5, 8, 13, 21, 34 \cdots $
+&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Wed, 26 Nov 2014 20:40:00 -0800</pubDate><guid isPermaLink="false">tag:None,2014-11-26:/fibonacci-numbers-in-python.html</guid><category>software</category><category>Fibonacci numbers</category><category>tail recursion optimization</category><category>numerical precision</category><category>arbitrary precision integers</category><category>python</category></item><item><title>Python API for FRED</title><link>/python-api-for-fred.html</link><description>&lt;h2&gt;FRED data&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://research.stlouisfed.org/fred2/"&gt;FRED&lt;/a&gt; (Federal Reserve Economic Data) is a vast database of economic data provided by the Federal Reserve Bank of St. Louis. It currently contains 237,000 data series and it continues to expand.&lt;/p&gt;
+&lt;p&gt;I wrote a simple python module called &lt;code&gt;fredapi&lt;/code&gt; that makes it easy to access the …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Sun, 12 Oct 2014 18:40:00 -0700</pubDate><guid isPermaLink="false">tag:None,2014-10-12:/python-api-for-fred.html</guid><category>software</category><category>python</category><category>economic data</category><category>FRED</category></item><item><title>Timelapse Photos of NYC</title><link>/timelapse-photos-of-nyc.html</link><description>&lt;p&gt;I'm pretty luckly to have a nice view of the city with the Hudson River and New Jersey in the background. I figured it'd be pretty fun to take some timelapsed photos.&lt;/p&gt;
+&lt;h2&gt;Setup&lt;/h2&gt;
+&lt;p&gt;There are plenty of apps available and I used &lt;a href="http://www.lapseit.com/"&gt;Laspe It&lt;/a&gt; on iOS. I set up my …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Wed, 23 Apr 2014 21:52:00 -0700</pubDate><guid isPermaLink="false">tag:None,2014-04-23:/timelapse-photos-of-nyc.html</guid><category>photography</category></item><item><title>Astrophotography of Jupiter</title><link>/astrophotography-of-jupiter.html</link><description>&lt;p&gt;You can see my previous &lt;a href="/astrophotography-of-the-moon.html"&gt;post on the Moon&lt;/a&gt; for my telescope setup. In this post I'll show some photos I took of Jupiter. &lt;/p&gt;
+&lt;p&gt;The Moon is roughly 400,000 km from the Earth, while Jupiter is almost 600,000,000 km away. So Jupiter is about 1500 times farther …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Sun, 02 Dec 2012 22:50:00 -0800</pubDate><guid isPermaLink="false">tag:None,2012-12-02:/astrophotography-of-jupiter.html</guid><category>photography</category></item><item><title>Astrophotography of the Moon</title><link>/astrophotography-of-the-moon.html</link><description>&lt;p&gt;I got interested in astrophotography recently. It's a lot of fun. I started with the Moon which should be the easiest celestial object to take pictures of. &lt;/p&gt;
+&lt;h2&gt;Telescope Setup&lt;/h2&gt;
+&lt;p&gt;I used the &lt;a href="http://www.amazon.com/gp/product/B000GUFOBO/"&gt;Celestron NexStar 4 SE Telescope&lt;/a&gt; along with my Nikon D5100 DSLR for these shots. In order to connect …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Fri, 23 Nov 2012 22:50:00 -0800</pubDate><guid isPermaLink="false">tag:None,2012-11-23:/astrophotography-of-the-moon.html</guid><category>photography</category></item><item><title>Hello World!</title><link>/hello-world.html</link><description>&lt;p&gt;Testing out the pelican blogging framework.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Fri, 14 Sep 2012 10:20:00 -0700</pubDate><guid isPermaLink="false">tag:None,2012-09-14:/hello-world.html</guid><category>misc</category></item></channel></rss>
