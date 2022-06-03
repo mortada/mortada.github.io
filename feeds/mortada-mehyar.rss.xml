@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>Random Points - Mortada Mehyar</title><link>https://mortada.net/</link><description></description><lastBuildDate>Sat, 30 Sep 2017 22:33:00 -0700</lastBuildDate><item><title>3 Easy Steps to Set Up Pyspark</title><link>https://mortada.net/3-easy-steps-to-set-up-pyspark.html</link><description>&lt;p&gt;Starting with Spark 2.2, it is now super easy to set up pyspark.&lt;/p&gt;
+<rss version="2.0"><channel><title>Random Points - Mortada Mehyar</title><link>https://mortada.net/</link><description></description><lastBuildDate>Wed, 20 Apr 2022 16:20:00 -0700</lastBuildDate><item><title>Left Tesla</title><link>https://mortada.net/left-tesla.html</link><description>&lt;p&gt;After an incredible 6.5 years of working at Tesla, I left in March this year. It has been a life changing experience to be able to work with and learn from so many brilliant people there.&lt;/p&gt;
+&lt;p&gt;I plan to take the rest of the year off to focus on …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mortada Mehyar</dc:creator><pubDate>Wed, 20 Apr 2022 16:20:00 -0700</pubDate><guid isPermaLink="false">tag:mortada.net,2022-04-20:/left-tesla.html</guid><category>misc</category><category>tesla</category></item><item><title>3 Easy Steps to Set Up Pyspark</title><link>https://mortada.net/3-easy-steps-to-set-up-pyspark.html</link><description>&lt;p&gt;Starting with Spark 2.2, it is now super easy to set up pyspark.&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Download Spark&lt;/p&gt;
